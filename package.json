@@ -1,6 +1,6 @@
 {
 	"name": "npm-meta",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"main": "index.js",
 	"license": "MIT",
 	"bin": {
@@ -9,12 +9,14 @@
 	"dependencies": {
 		"autobind-decorator": "^2.1.0",
 		"axios": "^0.18.0",
-		"babel-cli": "^6.26.0",
-		"babel-core": "^6.26.0",
-		"babel-preset-maple": "^0.1.0",
 		"ink": "^0.4.1",
 		"ink-spinner": "^1.0.0",
 		"ink-text-input": "^1.1.1"
+	},
+	"devDependencies": {
+		"babel-cli": "^6.26.0",
+		"babel-core": "^6.26.0",
+		"babel-preset-maple": "^0.1.0",
 	},
 	"scripts": {
 		"prestart": "npm run build",
